@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Kontak</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Form Kontak</h1>
+        <form action="submit.php" method="POST">
+            <label for="nama">Nama:</label>
+            <input type="text" id="nama" name="nama" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="pesan">Pesan:</label>
+            <textarea id="pesan" name="pesan" rows="100" required></textarea>
+            <button type="submit">Kirim</button>
+        </form>
+    </div>
+</body>
+
+</html>
+
+<!-- tunjuk: 
+- Isi tanda `___(1)___` dengan metode HTTP yang sesuai. 
+- Isi tanda `___(2)___` dengan tipe input untuk nama. 
+- Isi tanda `___(3)___` dengan tipe input untuk email. 
+- Isi tanda `___(4)___` dengan jumlah baris textarea untuk pesan. 
+- Isi tanda `___(5)___` dengan tipe tombol yang sesuai. -->

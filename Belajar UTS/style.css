@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 16px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input,
+textarea {
+    margin-bottom: 12px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Petunjuk: 
+- Isi tanda `___(6)___` dengan lebar maksimal kontainer. 
+- Isi tanda `___(7)___` dengan jarak dari atas untuk kontainer. 
+- Isi tanda `___(8)___` dengan padding kontainer. 
+- Isi tanda `___(9)___` dengan margin bawah untuk judul. 
+- Isi tanda `___(10)___` dengan margin bawah untuk label. 
+- Isi tanda `___(11)___` dengan margin bawah untuk elemen input dan textarea. 
+- Isi tanda `___(12)___` dengan padding untuk elemen input dan textarea. 
+- Isi tanda `___(13)___` dengan padding untuk tombol. */
